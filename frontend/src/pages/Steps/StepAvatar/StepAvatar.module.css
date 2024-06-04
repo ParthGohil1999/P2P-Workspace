@@ -1,0 +1,76 @@
+.cardWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+.bottomParagraph {
+    width:70%;
+    line-height: 1.9;
+    color: #C4C5C5;
+    margin: 0px auto;
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.actionButtonWrap {
+    /* margin-top: 40px; */
+}
+
+.subHeading{
+    color: #c4c5c5be;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.avatarWrapper{
+    width: 110px;
+    height: 110px;
+    border: 6px solid #0077ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.avatarImage{
+    /* height: 90%; */
+    /* width: 90%; */
+    object-fit: cover;
+}
+
+.avatarInput{
+    display: none;
+}
+
+.avatarLabel{
+    color: #0077ff;
+    margin: 20px 0;
+    display: inline-block;
+    cursor: pointer
+}
+
+
+@media only screen and (max-width: 490px) {
+    .cardWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5.1rem 0px;
+    }
+    
+    
+    .bottomParagraph {
+        width: 100%;
+        font-size: 9.5px;
+        line-height: 1.9;
+        color: #C4C5C5;
+        margin: 0px auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+}

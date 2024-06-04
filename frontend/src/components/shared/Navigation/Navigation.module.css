@@ -1,0 +1,40 @@
+.navbar {
+    padding: 25px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoutButton {
+    background: none;
+    cursor: pointer;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+}
+
+.navRight {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 40px;
+    height: 38px;
+    border: 3px solid rgba(148, 253, 255, 0.75);
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    margin: 0 20px;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 490px) {
+    .navContent {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.75);
+        font-family: Nunito;
+        font-size: 17px;
+        display: flex;
+        align-items: center
+    }
+}

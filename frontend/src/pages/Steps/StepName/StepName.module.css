@@ -1,0 +1,42 @@
+.cardWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+.bottomParagraph {
+    width:70%;
+    line-height: 1.9;
+    color: #C4C5C5;
+    margin: 0px auto;
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.actionButtonWrap {
+    margin-top: 40px;
+}
+
+
+@media only screen and (max-width: 490px) {
+    .cardWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5.1rem 0px;
+    }
+    
+    
+    .bottomParagraph {
+        width: 100%;
+        font-size: 9.5px;
+        line-height: 1.9;
+        color: #C4C5C5;
+        margin: 0px auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+}

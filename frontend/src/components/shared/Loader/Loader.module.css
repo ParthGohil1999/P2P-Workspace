@@ -1,0 +1,58 @@
+.cardWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10.5rem;
+}
+
+.message{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.spinner{
+    margin-bottom: 20px;
+    animation: spin 1.5s ease-in-out infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.bottomParagraph {
+    width:70%;
+    line-height: 1.9;
+    color: #C4C5C5;
+    margin: 0px auto;
+    margin-top: 20px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.actionButtonWrap {
+    margin-top: 40px;
+}
+
+
+@media only screen and (max-width: 490px) {
+    .cardWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 8.5rem 0;
+    }
+    
+    
+    .bottomParagraph {
+        width: 100%;
+        font-size: 9.5px;
+        line-height: 1.9;
+        color: #C4C5C5;
+        margin: 0px auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+}

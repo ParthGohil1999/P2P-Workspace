@@ -1,0 +1,82 @@
+.cardWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.9rem;
+}
+
+.actionButtonWrap{
+    margin-top: 40px;
+}
+
+.btn{
+    width: 50px;
+    background: #0b0b1300;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    margin: 0 3px;
+    padding: 7px;
+    border-radius: 7px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 3px 3px 5px 0px rgba(5, 6, 12, 0.801);
+
+}
+
+.btn:hover{
+    background: #0077ffea;
+}
+
+.active{
+    background: #0077ffea;
+}
+
+.buttonWrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 500px
+}
+
+.text {
+    width: 70%;
+    /* font-size: 19.5px; */
+    line-height: 1.9;
+    color: #C4C5C5;
+    margin: 0px auto;
+    margin-top: 20px;
+    font-size: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 490px) {
+    .cardWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem 40px;
+    }
+    .buttonWrap {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 80vw
+    }
+    
+    .text {
+        width: 100%;
+        font-size: 9.5px;
+        line-height: 1.9;
+        color: #C4C5C5;
+        margin: 0px auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+}
+
+

@@ -1,0 +1,76 @@
+html {
+    font-size: 16px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background: #121218;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+}
+
+.container {
+    width: 1200px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+/* .nav-content{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+} */
+
+.logo {
+    width: 35px;
+    transform: rotate(5deg);
+    background-color: rgba(243, 152, 255, 0.801);
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+/* .cardWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+} */
+
+@media only screen and (max-width: 490px) {
+    body {
+        background: #16161bf6;
+        font-family: 'Nunito', sans-serif;
+        color: #fff;
+    }
+    /* .cardWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5.1rem 0px;
+    } */
+}
